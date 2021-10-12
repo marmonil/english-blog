@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My blogg</title>
+    <!----------this is bootstrap 4.4 css link----------->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-----------this font awesome stylesheet link-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <!----------this google font links----------->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <!------------MY CSS LINK--------->
+    <link rel="stylesheet" href="blog.css">
+    
+
+</head>
+<body>
+        <!-------header section strat here-------->
+    <nav class="navbar navbar-expand-lg">
+       <div class="container">
+        <a class="navbar-brand" href="#">Blogg</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Link <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Link
+              </a>
+              
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Link
+                </a>
+                
+              </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control border-0 rounded-0" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn-main btn btn-success my-2 my-sm-0 rounded-0" type="submit">Search</button>
+          </form>
+        </div>
+       </div>
+      </nav>
+      <!---------HERO SECTION-------->
+        <section class="hero py-4">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8">
+                        <div class="hero-post shadow">
+                            <img src="img/1.jpg" alt="img"class="img-fluid">
+                            <div class="hero-post-badges text-cemter">
+                                <a class="p-2 px-3 mb-2" href="#"><i class="fas fa-calendar-alt mr-2"></i>12 Julay 2021</a>
+                                <a class="p-2 px-3 mb-2"href="#">Texcnology</a>
+                            </div>
+                            <div class="hero-post-content">
+                                <div class="row">
+                                    <div class="col-md-2">
+                                        <img src="img/person-1.jpg" alt="img"class="img-fluid rounded-circle">
+                                    </div>
+                                    <div class="col-md-10">
+                                        <h2>My Blog Post .DSDASD....asd da go bar blaH</h2>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="hero-post shadow">
+                            <img src="img/3.jpg" alt="img"class="img-fluid">
+                            <div class="hero-post-badges">
+                                <a href="#"><i class="fas fa-calendar-alt"></i>12 Julay 2021</a>
+                                <a href="#">Texcnology</a>
+                            </div>
+                            <div class="hero-post-content">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img src="img/person-1.jpg" alt="img"class="img-fluid rounded-circle">
+                                    </div>
+                                    <div class="col-md-9">
+                                        <h3>My Blog Post .....asd da</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="hero-post shadow">
+                            <img src="img/2.jpg" alt="img"class="img-fluid w-100">
+                            <div class="hero-post-badges">
+                                <a href="#"><i class="fas fa-calendar-alt"></i>12 Julay 2021</a>
+                                <a href="#">Texcnology</a>
+                            </div>
+                            <div class="hero-post-content">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img src="img/person-1.jpg" alt="img"class="img-fluid rounded-circle">
+                                    </div>
+                                    <div class="col-md-9">
+                                        <h3>My Blog Post .....asd da</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <!-------BOLG SECTION------->
+        <section class="blog-posts pt-4">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8">
+                        <article class="blog-post mb-3 shadow">
+                            <div class="row">
+                                <div class="col-sm-4">
+                                    <img src="img/4.jpg" alt=""class="img-fluid">
+                                </div>
+                                <div class="col-sm-8">
+                                    <h3 class="my-0">My blog title foo bar</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit nobis dolorum molestias aspernatur aperiam numquam accusamus fugit, reiciendis, tenetur quidem, quod delectus. Hic, beatae debitis quibusdam ipsa tempora iure repellendus!</p>
+                                    <div class="badge">
+                                        <a href="#">Texcnology</a>
+                                        <a href="#">Programing</a>
+                                    </div>
+                                </div>
+                            </div>
+    
+                        </article>
+                        <article class="blog-post  mb-3">
+                            <div class="row">
+                                <div class="col-sm-4">
+                                    <img src="img/4.jpg" alt=""class="img-fluid">
+                                </div>
+                                <div class="col-sm-8">
+                                    <h3 class="my-0">My blog title foo bar</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit nobis dolorum molestias aspernatur aperiam numquam accusamus fugit, reiciendis, tenetur quidem, quod delectus. Hic, beatae debitis quibusdam ipsa tempora iure repellendus!</p>
+                                    <div class="badge">
+                                        <a href="#">Texcnology</a>
+                                        <a href="#">Programing</a>
+                                    </div>
+                                </div>
+                            </div>
+    
+                        </article>
+                        <article class="blog-post  mb-3">
+                            <div class="row">
+                                <div class="col-sm-4">
+                                    <img src="img/4.jpg" alt=""class="img-fluid">
+                                </div>
+                                <div class="col-sm-8">
+                                    <h3 class="my-0">My blog title foo bar</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit nobis dolorum molestias aspernatur aperiam numquam accusamus fugit, reiciendis, tenetur quidem, quod delectus. Hic, beatae debitis quibusdam ipsa tempora iure repellendus!</p>
+                                    <div class="badge">
+                                        <a href="#">Texcnology</a>
+                                        <a href="#">Programing</a>
+                                    </div>
+                                </div>
+                            </div>
+    
+                        </article>
+                        <article class="blog-post  mb-3">
+                            <div class="row">
+                                <div class="col-sm-4">
+                                    <img src="img/4.jpg" alt=""class="img-fluid">
+                                </div>
+                                <div class="col-sm-8">
+                                    <h3 class="my-0">My blog title foo bar</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit nobis dolorum molestias aspernatur aperiam numquam accusamus fugit, reiciendis, tenetur quidem, quod delectus. Hic, beatae debitis quibusdam ipsa tempora iure repellendus!</p>
+                                    <div class="badge">
+                                        <a href="#">Texcnology</a>
+                                        <a href="#">Programing</a>
+                                    </div>
+                                </div>
+                            </div>
+    
+                        </article>
+                        <article class="blog-post  mb-3">
+                            <div class="row">
+                                <div class="col-sm-4">
+                                    <img src="img/4.jpg" alt=""class="img-fluid">
+                                </div>
+                                <div class="col-sm-8">
+                                    <h3 class="my-0">My blog title foo bar</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit nobis dolorum molestias aspernatur aperiam numquam accusamus fugit, reiciendis, tenetur quidem, quod delectus. Hic, beatae debitis quibusdam ipsa tempora iure repellendus!</p>
+                                    <div class="badge">
+                                        <a href="#">Texcnology</a>
+                                        <a href="#">Programing</a>
+                                    </div>
+                                </div>
+                            </div>
+    
+                        </article>
+                        <article class="blog-post  mb-3">
+                            <div class="row">
+                                <div class="col-sm-4">
+                                    <img src="img/4.jpg" alt=""class="img-fluid">
+                                </div>
+                                <div class="col-sm-8">
+                                    <h3 class="my-0">My blog title foo bar</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit nobis dolorum molestias aspernatur aperiam numquam accusamus fugit, reiciendis, tenetur quidem, quod delectus. Hic, beatae debitis quibusdam ipsa tempora iure repellendus!</p>
+                                    <div class="badge">
+                                        <a href="#">Texcnology</a>
+                                        <a href="#">Programing</a>
+                                    </div>
+                                </div>
+                            </div>
+    
+                        </article>
+                    </div>
+                    <aside class="col-md-4 px-4" >
+                        <!-------social links-------->
+                        <div class=" social-links row text-center">
+                            <div class="col-sm-4 py-5">
+                                <a href="#"class="social-link  w-100 text-center">
+                                    <i class="fab fa-facebook"></i>
+                                </a>
+                            </div>
+                            <div class="col-sm-4 py-5 secondary-color">
+                                <a href="#"class="social-link  w-100 text-center">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </div>
+                            <div class="col-sm-4 py-5">
+                                <a href="#"class="social-link  w-100 text-center">
+                                    <i class="fab fa-youtube"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <h4 class="aside-heading mt-4 pl-2 mb-3">Populer Authors</h4>
+                        <article class="row author mb-3">
+                            <div class="col-sm-4">
+                                <img src="img/perswn=2.jpg" alt=""class="img-fluid rounded-circle">
+                            </div>
+                            <div class="col-sm-8">
+                                <h5 class="m-0">Marmonil Hobi</h5>
+                                <p class="m-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, odit?</p>
+                                <div class="author-social-links">
+                                    <a href="#"><i class="fab fa-facebook"></i></a>
+                                    <a href="#"><i class="fab fa-twitter"></i></a>
+                                    <a href="#"><i class="fab fa-youtube"></i></a>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="row author mb-3">
+                            <div class="col-sm-4">
+                                <img src="img/person33.jpg" alt=""class="img-fluid rounded-circle">
+                            </div>
+                            <div class="col-sm-8">
+                                <h5 class="m-0">Hriday Sorkar</h5>
+                                <p class="m-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, odit.</p>
+                                <div class="author-social-links">
+                                    <a href="#"><i class="fab fa-facebook"></i></a>
+                                    <a href="#"><i class="fab fa-twitter"></i></a>
+                                    <a href="#"><i class="fab fa-youtube"></i></a>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="row author mb-3">
+                            <div class="col-sm-4">
+                                <img src="img/person-4.jpg" alt=""class="img-fluid rounded-circle">
+                            </div>
+                            <div class="col-sm-8">
+                                <h5 class="m-0">Devod Warnar</h5>
+                                <p class="m-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, odit.</p>
+                                <div class="author-social-links">
+                                    <a href="#"><i class="fab fa-facebook"></i></a>
+                                    <a href="#"><i class="fab fa-twitter"></i></a>
+                                    <a href="#"><i class="fab fa-youtube"></i></a>
+                                </div>
+                            </div>
+                        </article>
+                        <h4 class="aside-heading mt-4 pl-2 mb-3">Populer Catagories</h4>
+                        <div class="badges w-100 text-center ">
+                            <div class="badges w-100">
+                                <a href="#">Texcnology</a>
+                                <a href="#">Programing</a>
+                                <a href="#">Bootstrap</a>
+                                <a href="#">Javascript</a>
+                                <a href="#">HTML</a>
+                                <a href="#">Python</a>
+                                <a href="#">CSS</a>
+                                <a href="#">DJango</a>
+                                <a href="#">Phpotoshop</a>
+                                <a href="#">Node JS</a>
+                                <a href="#">My SQL</a>
+                                <a href="#">Python</a>
+                                <a href="#">CSS</a>
+                                <a href="#">DJango</a>
+                                <a href="#">Phpotoshop</a>
+                                <a href="#">Node JS</a>
+                                <a href="#">My SQL</a>
+                                <a href="#">React API</a>
+                                <a href="#">React JS</a>
+                                <a href="#">Python</a>
+                                <a href="#">CSS</a>
+                                <a href="#">DJango</a>
+                            </div>
+                        </div>
+                    </aside>
+                </div>
+            </div>
+        </section>
+        <!-------footer section start--------->
+        <footer class="footer py-4">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <a href="#"class="footer-logo">blogg</a>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga deleniti laudantium consectetur, tenetur magni ratione?
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <h4 class="hobi">Usefull Links</h4>
+                        <ul>
+                            <li><a href="#"class="hobii">Home</a></li>
+                            <li><a href="#"class="hobii">Terms Of Service</a></li>
+                            <li><a href="#"class="hobii">Privacy pollicy</a></li>
+                            <li><a href="#"class="hobii">Contact Us</a></li>
+                            <li><a href="#"class="hobii">Newslatter</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+                        <h4 class="hobi">Newslatter</h4>
+                        <form class="form-inline my-2 my-lg-0">
+                            <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                          </form>
+                    </div>
+                </div>
+                <div class="w-100 text-center credits">
+                    <p>
+                        Made by <a href="#">Marmonil Hobi</a> &copy; 2021 All rights reserved.
+                    </p>
+                </div>
+            </div>
+        </footer>
+
+           
+    <!---------this is bootstrap 4.4 cdn-----------> 
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    
+    
+</body>
+</html>

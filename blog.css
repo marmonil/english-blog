@@ -1,0 +1,140 @@
+body {
+  font-family: "montserrat", sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+}
+input {
+  background-color: #1f2833;
+}
+a {
+  color: #66fcf1;
+}
+img {
+  filter: grayscale(50%) brightness(0.8);
+}
+img.rounded-circle {
+  filter: none;
+  border: 2px solid#66FCF1;
+}
+/*header*/
+.navbar {
+  background-color: #0b0c10;
+  color: #66fcf1 !important;
+}
+.navbar-brand {
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+.btn-main {
+  background-color: #66fcf1 !important;
+  color: black;
+}
+/*HERO SECTION*/
+.hero {
+  background-color: #1f2833;
+}
+.hero-post-badges {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+.hero-post-badges a {
+  background-color: #0b0c10;
+  display: block;
+  font-size: 0.8rem;
+}
+
+.hero-post-content {
+  position: absolute;
+  bottom: 10px;
+  color: #66fcf1;
+}
+h3 {
+  font-size: 1.5rem;
+}
+.hero-post {
+  position: relative;
+}
+/*main blog*/
+.blog-posts {
+  background-color: #0b0c10;
+  color: #c5c6c7;
+}
+.blog-post {
+  background-color: #1f2833;
+}
+.blog-post img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.blog-post p {
+  font-size: 0.8rem;
+}
+.blog-post .col-sm-8 {
+  border-left: 3px solid #66fcf1;
+}
+.badge {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.badge > a {
+  margin-left: 0.5rem;
+  padding: 0.5rem;
+  background-color: #66fcf1;
+  color: #0b0c10;
+}
+.badges > a {
+  color: #c5c6c7;
+}
+/* ASIDE */
+.social-links {
+  background-color: #66fcf1;
+
+  font-size: 1.5rem;
+}
+.fab {
+  color: #66fcf1;
+}
+.secondary-color {
+  background-color: #45a298;
+}
+.aside-heading {
+  border-left: 3px solid #66fcf1;
+  color: #66fcf1;
+}
+.author p {
+  font-size: 0.9rem;
+}
+.author-social-links a {
+  margin-left: 0.8rem;
+}
+.badges {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.badges > a {
+  margin-left: 0.5rem;
+  display: inline-block;
+  margin: 0.2rem;
+  padding: 0.5rem;
+  background-color: #66fcf1;
+  color: #0b0c10;
+}
+/* footer */
+.footer {
+  background-color: #1f2833;
+  color: #c5c6c7;
+}
+.hobi {
+  color: #66fcf1;
+}
+.hobii {
+  color: #c5c6c7;
+}
